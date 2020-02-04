@@ -6,7 +6,7 @@ ARG https_proxy
 
 # Set environment
 ENV HELM_VERSION=v2.16.1 \
-    KUBECTL_VERSION=1.17.0
+    KUBECTL_VERSION=v1.17.0
 
 # Add Python and JQ
 RUN \
